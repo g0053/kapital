@@ -69,11 +69,11 @@ Plugin txpg-gateway details:
 * Press manage button and set values ​​for `Url`, `Order type`, `Login type`, `Login` and `Password`. Do the same for the test parameters.
 
 **Example**
-* Url: `https://payment.bank.ru:8001`
-* Order type: `Order1`
+* Url: `https://e-commerce.kapitalbank.az/api`
+* Order type: `Order_SMS`
 * Login type: `TerminalSys`
-* Login: `merchant1`
-* Password: `SuperPassword!@12`
+* Login: `E1*****` # Provided by Kapital Bank
+* Password: `SuperPassword!@12` # Provided by Kapital Bank
 
 ## Return/reverse purchase
 * Go to the order page in the store's website admin panel
