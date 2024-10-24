@@ -16,6 +16,8 @@ Tested on:
 
 ## Installation
 
+ `Installation via WEB UI/Upload plugin DOES NOT work, you need put content to the plugin folder! Since our example running on VPS we use simply wget to fetch the archive...`
+
 * Download plugin:
 ```
 wordpress=/var/www/wordpress
@@ -62,7 +64,9 @@ Plugin txpg-gateway details:
 
 ```
 
-* Using WEB UI in the Woocommerce settings for the payment gateway, set values ​​for `Url`, `Order type`, `Login type`, `Login` and `Password`. Do the same for the test parameters.
+* Using WEB UI in the Woocommerce -> Settings -> Payments -> Платёжный шлюз TXPG – Оплатить картой and enable it.
+
+* Press manage button and set values ​​for `Url`, `Order type`, `Login type`, `Login` and `Password`. Do the same for the test parameters.
 
 **Example**
 * Url: `https://payment.bank.ru:8001`
